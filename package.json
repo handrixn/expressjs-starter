@@ -1,0 +1,39 @@
+{
+  "name": "boilerplate-expressjs",
+  "version": "1.0.0",
+  "description": "starter for expressjs project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "nyc --reporter=text ava",
+    "test-coverage-html": "nyc --reporter=html --reporter=text ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/handrixn/expressjs-starter"
+  },
+  "author": "handrixn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/handrixn/expressjs-starter/issues"
+  },
+  "homepage": "https://github.com/handrixn/expressjs-starter#readme",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "sinon": "^11.1.2",
+    "starter-module": "git+ssh://git@github.com/handrixn/starter-module.git"
+  }
+}
